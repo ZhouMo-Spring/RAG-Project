@@ -1,0 +1,15 @@
+cache:
+  node:
+    fields:
+      - name
+  async: thread
+
+# 知识库目录，目录下放知识库的文件，如各种.pdf, .word文件
+Knowledge-base-path: ./KnowledgeBase
+
+model:
+  # 编码模型配置，用于知识库功能
+  embedding: 
+    # BGE中文embedding模型，在C-MTEB基准测试中表现优秀
+    model-name: BAAI/bge-base-zh-v1.5
+    device: cpu 

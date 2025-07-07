@@ -1,0 +1,4 @@
+KnowledgeBase/
+vector_cache/
+__pycache__/
+.env
